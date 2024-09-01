@@ -32,15 +32,15 @@ It is particularly useful when:
 * Working with low counts.
 * Fewer than 80% of the categories have expected values of < 5.
 
-## One-tailed test
+## One-tailed Test
 For a one-tailed test, we want to take into account only those tables that are more extreme than the observed table (the input table), but only in one direction:
 * If A <= B, then sum the probabilities of all tables that have the upper-left corner value lower than or equal to A, including the observed table.
 * If A > B, then sum the probabilities of all tables that have the upper-left corner value greater than or equal to A, including the observed table.
 
-## Two-tailed test
+## Two-tailed Test
 For a two-tailed test, we add together the probabilities of every table that has a probability lower than or equal to the probability of the observed table.
 
-## Technologies used
+## Technologies Used
 * Python.
 * Tkinter Library for the window, entries, labels, button and messagebox.
 * Scipy Library for the fisher_exact method to display one-tailed and two-tailed p-values to see that the implemented methods calculate the p-values correct.
