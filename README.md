@@ -43,4 +43,4 @@ For a two-tailed test, we add together the probabilities of every table that has
 ## Technologies Used
 * Python.
 * Tkinter Library for the window, entries, labels, button and messagebox.
-* Scipy Library for the fisher_exact method to display one-tailed and two-tailed p-values to see that the implemented methods calculate the p-values correct.
+* SciPy Library for the fisher_exact method to display one-tailed and two-tailed p-values to see that the implemented methods calculate the p-values correct.
